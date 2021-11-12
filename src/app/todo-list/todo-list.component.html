@@ -1,0 +1,15 @@
+<div>
+  <span  *ngFor="let todo of todos">
+    <span class = " col-7 card card-body">
+
+        <b>
+          <input class="" type="checkbox">
+          <button class="deleteButton" (click)="removeTask(todo.id)"></button>
+          {{todo.title}}
+        </b>
+        <hr class="col-1 dashed ">
+        <small class="bg-gray">{{todo.description}}</small>
+
+    </span>
+  </span>
+</div>

@@ -1,0 +1,72 @@
+{
+  "MONDAY": [
+    {
+      "day": "MON",
+      "hash": 1 ,
+      "taskName": "Убраться",
+      "taskDescription": "Описание",
+      "finishTime": 2222,
+      "finishStatus": false
+    }
+  ],
+  "TUESDAY": [
+    {
+      "date": "MON",
+      "hash": 1 ,
+      "taskName": "Убраться",
+      "taskDescription": "Описание",
+      "finishTime": 2222,
+      "finishStatus": false
+    }
+  ],
+  "WEDNESDAY": [
+    {
+      "date": "MON",
+      "hash": 1 ,
+      "taskName": "Убраться",
+      "taskDescription": "Описание",
+      "finishTime": 2222,
+      "finishStatus": false
+    }
+  ],
+  "THURSDAY": [
+    {
+      "date": "MON",
+      "hash": 1 ,
+      "taskName": "Убраться",
+      "taskDescription": "Описание",
+      "finishTime": 2222,
+      "finishStatus": false
+    }
+  ],
+  "FRIDAY": [
+    {
+      "date": "MON",
+      "hash": 1 ,
+      "taskName": "Убраться",
+      "taskDescription": "Описание",
+      "finishTime": 2222,
+      "finishStatus": false
+    }
+  ],
+  "SATURDAY": [
+    {
+      "date": "MON",
+      "hash": 1 ,
+      "taskName": "Убраться",
+      "taskDescription": "Описание",
+      "finishTime": 2222,
+      "finishStatus": false
+    }
+  ],
+  "SUNDAY": [
+    {
+      "date": "MON",
+      "hash": 1 ,
+      "taskName": "Убраться",
+      "taskDescription": "Описание",
+      "finishTime": 2222,
+      "finishStatus": false
+    }
+  ]
+}

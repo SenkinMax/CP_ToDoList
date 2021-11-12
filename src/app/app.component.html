@@ -1,0 +1,21 @@
+<div class="container-fluid">
+
+    <h1>{{title}}</h1>
+    <hr class="col-1 dashed">
+      <div class="col-3">
+        <div class="row place">
+          <input  class="name card card-body bgText " type="text" placeholder = "enter task" #task>
+          <input  class="col-md-8
+                         col-xs-8
+                         description card card-body bgText " aria-hidden="true" type="text" placeholder = "enter task" #desription>
+          <button class="col-md-1
+                         col-xs-1
+                         description card card-body bgButton " (click)="createTask(task.value, desription.value)"></button>
+        </div>
+        <hr class="col-1 dashed ">
+        <app-todo-list [todos]="todos"
+                       (removeTaskEmitter)="removeTask($event)">
+        </app-todo-list>
+      </div>
+
+</div>
