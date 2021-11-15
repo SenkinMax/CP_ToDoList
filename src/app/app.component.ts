@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 
-import taskData from 'src/assets/tasks.json'
-
 export interface Todo {
   id: number
   title: string
